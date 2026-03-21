@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  nextcloud:
+    image: nextcloud:latest
+    container_name: nextcloud
+    restart: always
+    ports:
+      - "8888:80"
+    volumes:
+      - ./config:/var/www/html
+      - /srv/nas:/var/www/html/data
+    environment:
+      # Add your server's local IP, domain, and Tailscale IP here
+      - NEXTCLOUD_TRUSTED_DOMAINS=192.168.1.100 files.yourdomain.com
