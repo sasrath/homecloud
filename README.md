@@ -16,7 +16,7 @@ This repo is the companion to a 5-part tutorial series:
 |------|-------|--------|
 | 1 | [Overview & Architecture](LINK_TO_PART_1) | ✅ Published |
 | 2 | [Nextcloud + Docker Setup](LINK_TO_PART_2) | ✅ Published |
-| 3 | NAS with Samba | 🔜 Coming soon |
+| 3 | NAS with Samba | ✅ Published |
 | 4 | Remote Access (Tailscale + VPS + frp) | 🔜 Coming soon |
 | 5 | Security Hardening | 🔜 Coming soon |
 
