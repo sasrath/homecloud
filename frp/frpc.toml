@@ -1,0 +1,14 @@
+# frp client configuration — runs on your HOME SERVER
+# Replace values marked with "your-" before using
+
+serverAddr = "your-oracle-vps-ip"
+serverPort = 7000
+
+auth.method = "token"
+auth.token = "your-secret-token-here"
+
+[[proxies]]
+name = "nextcloud"
+type = "http"
+localPort = 8888
+customDomains = ["files.yourdomain.com"]

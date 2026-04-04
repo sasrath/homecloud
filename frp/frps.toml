@@ -1,0 +1,9 @@
+# frp server configuration — runs on your ORACLE VPS
+# Generate a strong token: openssl rand -hex 32
+
+bindPort = 7000
+vhostHTTPPort = 8080
+vhostHTTPSPort = 8443
+
+auth.method = "token"
+auth.token = "your-secret-token-here"
