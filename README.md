@@ -18,7 +18,7 @@ This repo is the companion to a 5-part tutorial series:
 | 2 | [Nextcloud + Docker Setup](LINK_TO_PART_2) | ✅ Published |
 | 3 | NAS with Samba | ✅ Published |
 | 4 | Remote Access (Tailscale + VPS + frp) | ✅ Published |
-| 5 | Security Hardening | 🔜 Coming soon |
+| 5 | Security Hardening | ✅ Published  |
 
 ## Quick start
 
@@ -53,6 +53,7 @@ homecloud/
 └── security/
     ├── ufw-rules.sh            ← Firewall setup script (Part 5)
     └── fail2ban-jail.local     ← Brute force protection (Part 5)
+    └── nextcloud-filter.conf     ← Brute force protection (Part 5)
 ```
 
 ## Requirements
